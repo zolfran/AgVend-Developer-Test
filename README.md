@@ -4,17 +4,48 @@ Welcome to the AgVend Digital Solutions full stack developer test. Follow the in
 
 ## Setup Instructions
 
-1. **Access the Repository:**
-   - Ensure you have access to this repository. If you do not have access, please request access from the repository owner.
+# Instructions for Completing and Submitting the Full Stack Developer Test
 
-2. **Create a Codespace:**
-   - Click the `Code` button at the top right of the repository page.
+## Completing the Test
+
+1. **Create Your Repository from the Template:**
+   - Go to the [template repository](https://github.com/zolfran/AgVend-Developer-Test).
+   - Click on the green `Use this template` button.
+   - Select `Create a new repository`.
+   - Name your new repository and make it public or private as required.
+
+2. **Open the Repository in GitHub Codespaces:**
+   - Navigate to your newly created repository on GitHub.
+   - Click the `Code` button.
    - Select `Open with Codespaces` from the dropdown menu.
    - If you do not see `Codespaces` as an option, click `New codespace` and select the appropriate branch (usually `main`).
 
-3. **Initialize the Environment:**
+3. **Work on the Tasks:**
    - The Codespace will automatically set up the environment based on the configuration files provided in the repository.
-   - Once the environment is ready, you can start working on the tasks as described below.
+   - Complete the tasks outlined in the README.md.
+
+4. **Commit Your Changes:**
+   - As you complete each task, commit your changes to your repository.
+   - Use meaningful commit messages to describe your changes.
+
+5. **Push Your Changes:**
+   - Push your commits to your GitHub repository.
+     ```sh
+     git add .
+     git commit -m "Completed task XYZ"
+     git push origin main
+     ```
+
+## Submitting Your Work
+
+1. **Share the Repository Link:**
+   - Once you have completed the tasks and pushed all your changes, share the link to your repository with us.
+   - You can send the link via email or through any other communication method provided.
+
+2. **Review:**
+   - Our team will review your repository, including your commits, code changes, and any additional documentation you have provided.
+
+Thank you for completing the test. We look forward to reviewing your work!
 
 ## Tasks
 
