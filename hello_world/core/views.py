@@ -7,10 +7,14 @@ import json
 from ..models import Book
 
 def index(request):
-    book = Book
+    books = Book.objects.all()
+    book_count = books.count()  # Get the total number of books
+    print("Books", books)
     context = {
         "title": "Django example",
-        "book": book
+        "books": books,
+        "book_count": book_count
+        
     }
     return render(request, "index.html", context)
 
