@@ -27,6 +27,15 @@ Welcome to the AgVend Digital Solutions full stack developer test. Follow the in
 4. **Commit Your Changes:**
    - As you complete each task, commit your changes to your repository.
    - Use meaningful commit messages to describe your changes.
+<<<<<<< HEAD
+=======
+   - ** If you have trouble submitting commits, check your remote origin 
+   - *** Run `git remote -v` to see the end branch URL (this should be blank)
+   - *** Add your branch URL by running `git remote add origin https://github.com/<your-username>/<your-repository>.git`
+   - *** Run `git push -u origin main`
+   - *** Run `git fetch origin`
+   - *** Run `git rebase origin/main`
+>>>>>>> 9de3170455b831f7b1970eb85e8d5d42ffe568f6
 
 5. **Push Your Changes:**
    - Push your commits to your GitHub repository.
