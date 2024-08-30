@@ -1,10 +1,10 @@
-# Full Stack Developer Test
+# Solutions Engineering Test
 
-Welcome to the AgVend Digital Solutions full stack developer test. Follow the instructions below to set up your development environment using GitHub Codespaces.
+Welcome to the AgVend Digital Solutions solutiosn engineering test. Follow the instructions below to set up your development environment using GitHub Codespaces.
 
 ## Setup Instructions
 
-# Instructions for Completing and Submitting the Full Stack Developer Test
+# Instructions for Completing and Submitting the Solutions Engineer Test
 
 ## Completing the Test
 
