@@ -12,7 +12,7 @@ Welcome to the AgVend Digital Solutions solutiosn engineering test. Follow the i
    - Go to the [template repository](https://github.com/zolfran/AgVend-Developer-Test).
    - Click on the green `Use this template` button.
    - Select `Create a new repository`.
-   - Name your new repository and make it public or private as required.
+   - Name your new repository and make it public.
 
 2. **Open the Repository in GitHub Codespaces:**
    - Navigate to your newly created repository on GitHub.
@@ -22,20 +22,18 @@ Welcome to the AgVend Digital Solutions solutiosn engineering test. Follow the i
 
 3. **Work on the Tasks:**
    - The Codespace will automatically set up the environment based on the configuration files provided in the repository.
+   - You do not need to install any dependendencies or run any commands to get the environment and app running. 
    - Complete the tasks outlined in the README.md.
 
 4. **Commit Your Changes:**
    - As you complete each task, commit your changes to your repository.
    - Use meaningful commit messages to describe your changes.
-<<<<<<< HEAD
-=======
    - ** If you have trouble submitting commits, check your remote origin 
    - *** Run `git remote -v` to see the end branch URL (this should be blank)
    - *** Add your branch URL by running `git remote add origin https://github.com/<your-username>/<your-repository>.git`
    - *** Run `git push -u origin main`
    - *** Run `git fetch origin`
    - *** Run `git rebase origin/main`
->>>>>>> 9de3170455b831f7b1970eb85e8d5d42ffe568f6
 
 5. **Push Your Changes:**
    - Push your commits to your GitHub repository.
@@ -60,7 +58,7 @@ Thank you for completing the test. We look forward to reviewing your work!
 ## Tasks
 
 ### Backend Development
-- Implement the following API endpoints:
+- Implement the following API endpoints in the /hello_world/core/views.py file :
   - `POST /add-book` - Add a new book.
   - `GET /books/<isbn>` - Retrieve book details.
   - `PUT /books/<isbn>` - Update stock quantity.
