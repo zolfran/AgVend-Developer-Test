@@ -6,6 +6,8 @@ from django.views.decorators.csrf import csrf_exempt
 import json
 from ..models import Book
 
+
+
 def index(request):
     books = Book.objects.all()
     book_count = books.count()  # Get the total number of books
@@ -21,6 +23,7 @@ def index(request):
 
 @csrf_exempt
 @csrf_exempt
+# TO-DO - The add_book functionality has already been built below. Make sure it works, add a book to the library. 
 def add_book(request):
     if request.method == 'POST':
         if request.content_type == 'application/json':
@@ -46,3 +49,13 @@ def add_book(request):
             return redirect('add_book')
     else:
         return render(request, 'add_book.html')
+
+
+#TO-DO - Write a function to retrieve the details of an individual book.
+#`GET /books/<isbn>` - Retrieve book details.
+
+#TO-DO - Write a function to update the quantity of a book in stock. 
+#`PUT /books/<isbn>` - Update stock quantity.
+
+#TO-DO - Write a function to delete a book from the library. 
+#`DELETE /books/<isbn>` - Delete a book.
