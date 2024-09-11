@@ -21,9 +21,14 @@ Welcome to the AgVend Digital Solutions solutiosn engineering test. Follow the i
    - If you do not see `Codespaces` as an option, click `New codespace` and select the appropriate branch (usually `main`).
 
 3. **Work on the Tasks:**
+   - The Codespace and app should fully work out of the box.
    - The Codespace will automatically set up the environment based on the configuration files provided in the repository.
+   - You do not need to create any new directory structures. At a minimum you will only need to work in the /hello_world/core/views.py file and the /hello_world/templates/index.html file to complete the first few tasks.
    - You do not need to install any dependendencies or run any commands to get the environment and app running. 
    - Complete the tasks outlined in the README.md.
+   - Follow along with #TO-DOs to see where you need to write any code.
+   - NOTE - Feel free to use any tools to complete this project. If you need to, use Chat-GPT - just be ready to tell us how you used it, 
+     why, and what you learned. 
 
 4. **Commit Your Changes:**
    - As you complete each task, commit your changes to your repository.
@@ -65,16 +70,20 @@ Thank you for completing the test. We look forward to reviewing your work!
   - `DELETE /books/<isbn>` - Delete a book.
 
 ### Frontend Development
-- Create a user interface to interact with the above API endpoints.
-  - Use Django templates or React.
-  - Ensure the interface is user-friendly and responsive.
+- Create a user interface to interact with the above API endpoints. This environment is using Django HTML templates. 
+  - Navigate to the hello_world/templates directory. Here is where you will find the "add book" page (add_book.html) and the landing page (the first loaded screen you see) -- index.html. Make an update to the index.html and the environment should auto-save and update. 
+  - Additional points for any interfaces built that are user-friendly and responsive.
+  - Additional points if you add more HTML pages for more functionalities you build in the /core/views.py file. 
 
 ### Database Management
+- Review the database model in the hello_world/models.py file.
+- The model you need for this app has already been built, just review the table. 
 - Write SQL queries to:
   - Retrieve books by a specific author.
   - Find the top 5 most expensive books.
   - Update the price of a book by its ISBN.
   - Delete all books with zero stock.
+- You can either turn these SQL Queries into functions in the views.py file, or you can just write the queries in pure SQL in a new file and leave the logic unintegrated for now.
 - Explain how you would optimize the database for performance.
 
 ### Code Review and Debugging
