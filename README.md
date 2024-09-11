@@ -23,7 +23,7 @@ Welcome to the AgVend Digital Solutions solutiosn engineering test. Follow the i
 3. **Work on the Tasks:**
    - The Codespace and app should fully work out of the box.
    - The Codespace will automatically set up the environment based on the configuration files provided in the repository.
-   - You do not need to create any new directory structures. At a minimum you will only need to work in the /hello_world/core/views.py file and the /hello_world/templates/index.html file to complete the first few tasks.
+   - You do not need to create any new directory structures. At a minimum you will only need to work in the /hello_world/core/views.py, the /hello_world/templates/index.html, and the /hello_world/templates/add_book.html file to complete the first few tasks.
    - You do not need to install any dependendencies or run any commands to get the environment and app running. 
    - Complete the tasks outlined in the README.md.
    - Follow along with #TO-DOs to see where you need to write any code.
@@ -71,7 +71,8 @@ Thank you for completing the test. We look forward to reviewing your work!
 
 ### Frontend Development
 - Create a user interface to interact with the above API endpoints. This environment is using Django HTML templates. 
-  - Navigate to the hello_world/templates directory. Here is where you will find the "add book" page (add_book.html) and the landing page (the first loaded screen you see) -- index.html. Make an update to the index.html and the environment should auto-save and update. 
+  - Navigate to the hello_world/templates directory. Here is where you will find the "add book" page (add_book.html) and the landing page (the first loaded screen you see) -- index.html. Make an update to the index.html and the environment should auto-save and update.
+  - There is currently a "bug" where after you add a book, the page doesn't redirect back to the index page. Add python logic in either the add_book function in /core/views.py to redirect the user to homepage after adding a new book, OR add html in the /templates/add_book.html that is a button that the user can click to get back to the homepage (index.html or url route "/"). 
   - Additional points for any interfaces built that are user-friendly and responsive.
   - Additional points if you add more HTML pages for more functionalities you build in the /core/views.py file. 
 
