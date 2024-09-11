@@ -24,6 +24,9 @@ def index(request):
 @csrf_exempt
 @csrf_exempt
 # TO-DO - The add_book functionality has already been built below. Make sure it works, add a book to the library. 
+# TO-DO - Add logic in the add_book function so that after a book is added in the post request, the user is redirected back to the index/home page.
+# TO-DO - You can also add a "Home" or "Back" button in the /templates/add_book.html file if you would prefer to solve this through the UI. 
+
 def add_book(request):
     if request.method == 'POST':
         if request.content_type == 'application/json':
